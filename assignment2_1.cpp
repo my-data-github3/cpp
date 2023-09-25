@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 
+namespace Nstudent{
 class student
 {
     int roll;
@@ -29,10 +30,10 @@ public:
         cin >> name >> roll >> marks;
     }
 };
-
+}
 int main()
 {
-    student piyush;
+    Nstudent::student piyush;
     int input;
     
     cout << "------------menu--------------" << endl;
