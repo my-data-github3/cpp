@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 class tollbooth{
-    unsigned cars;
+ unsigned cars;
  double amount;
  public:
 tollbooth(unsigned cars,double amount){
@@ -9,12 +9,12 @@ tollbooth(unsigned cars,double amount){
     this->amount=amount;
 }
 void payingCar(){
-    cars++;
-    amount=amount+0.5;
+    cars=cars+1;
+    amount+0.5;
 
 }
 void nocarpaying(){
-    cars++;
+    cars=cars+1;
 }
 void printonconsole(){
     cout <<"===== THE NUMBERS OF CARS PASSED ARE ========>"<<cars<<endl;
